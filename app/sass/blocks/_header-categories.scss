@@ -104,3 +104,10 @@
   color: $hover-color;
   font-weight: 700;
 }
+
+@media (min-width: $descktop-width) {
+
+  body {
+    background-color: pink;
+  }
+}
