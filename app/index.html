@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Onclinick-category</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+</head>
+<body>
+  <header class="header">
+    <button class="header__toggle" type="button" arialabel="Переключение модального меню"></button>
+    <a href="#" class="header__sign">Записаться на прием</a>
+    <a href="#" class="header__search" arialabel="Активировать поиск"></a>
+    <a href="tel:84952668571" class="header__tel" arialabel="Контактный телефон"></a>
+    <nav class="header__nav visually-hidden">
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Направления</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Специалисты</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">О центре</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Пациенты</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Стоимость</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Акции</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__list-link">Адреса</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="heade__logo">
+      <a href="gynecology.html">
+        <img src="img/logo-mobile.png" width="235" height="60" alt="Логотип мед-центра Он Клиник">
+      </a>
+    </div>
+    <p class="header__tel-number visually-hidden">8 495 266-85-71</p>
+    <p class="header__info visually-hidden">c 7:00 до 23:00</p>
+  </header>
+
+  <main class="main-page">
+    <h2 class="main-page__caption">Отделения ОН КЛИНИК</h2>
+    <form action="get" class="main-page__search search-disease">
+      <label for="search-disease" class="search-disease__label">
+        <input type="text" id="search-disease" class="search-disease__text" placeholder="Укажите направление или заболевание">
+      </label>
+      <button class="search-disease__submmit visually-hidden" aria-label="Отправка формы поиска заболеваний"></button>
+    </form>
+    <ul class="main-page__categories main-categories">
+      <li class="main-categories__item services-item">Аллергология и иммунология</li>
+      <li class="main-categories__item services-item">Аптека</li>
+      <li class="main-categories__item services-item">Вакцинация</li>
+      <li class="main-categories__item services-item">Восстановительное лечение</li>
+      <li class="main-categories__item services-item">Гастроэнтерология</li>
+      <li class="main-categories__item gynecology services-item">Гинекология и акушерство
+        <ul class="gynecology__list first-level-submenu visually-hidden">
+          <li class="gynecology__item services-item services-item--important">Хирургическая гинекология</li>
+          <li class="gynecology__item services-item">Лапароскопия при эндометриозе</li>
+          <li class="gynecology__item services-item">Лапароскопия кисты яичника</li>
+          <li class="gynecology__item services-item">Эксцизия шейки матки</li>
+          <li class="gynecology__item services-item">Бужирование цервикального канала</li>
+          <li class="gynecology__item services-item">Хирургическая дефлорация</li>
+          <li class="gynecology__item services-item">Радиоволновая хирургия</li>
+          <li class="gynecology__item services-item">Органосохраняющие операции
+            <ul class="second-level-submenu">
+              <li class="services-item">Аблация эндометрия</li>
+            </ul>
+          </li>
+          <li class="gynecology__item services-item">Пластические операции</li>
+          <li class="gynecology__item services-item">Малые вмешательства
+            <ul class="second-level-submenu">
+              <li class="services-item">Вскрытие кисты, абсцесса бартолиновой железы</li>
+              <li class="services-item">Вскрытие кисты шейки матки, коагуляция</li>
+              <li class="services-item">Вылущивание кисты бартолиновой железы</li>
+              <li class="services-item">Вскрытие кисты, фурункула наружных половых органов</li>
+            </ul>
+          </li>
+          <li class="gynecology__item services-item">Пластика влагалища</li>
+          <li class="gynecology__item services-item">Внутриматочные спирали</li>
+          <li class="gynecology__item services-item">Восстановление девственной плевы
+            <ul class="second-level-submenu">
+              <li class="services-item">Гименопластика</li>
+            </ul>
+          </li>
+          <li class="gynecology__item services-item">Пластика половых губ</li>
+          <li class="gynecology__item services-item">Пластика шейки матки</li>
+          <li class="gynecology__item services-item">Экстирпация матки
+            <ul class="second-level-submenu">
+              <li class="services-item">Экстирпация матки влагалищным доступом</li>
+            </ul>
+          </li>
+          <li class="gynecology__item services-item">Удаление инородных тел из влагалища</li>
+          <li class="gynecology__item services-item services-item--important">Контрацепция</li>
+          <li class="gynecology__item services-item services-item--important">Лечение аппаратом «Андро-Гин»</li>
+          <li class="gynecology__item services-item services-item--important">Лечение аппаратом «Андро-Гин»</li>
+          <li class="gynecology__item services-item services-item--important">Инстилляция полости матки лекарственными средствами</li>
+          <li class="gynecology__item services-item services-item--important">Антисептическая обработка влагалища</li>
+          <li class="gynecology__item services-item services-item--important">Гинекологический массаж</li>
+          <li class="gynecology__item services-item services-item--important">Интравагинальное введение лечебных тампонов</li>
+          <li class="gynecology__item services-item services-item--important">Электроконизация шейки матки</li>
+        </ul>
+      </li>
+      <li class="main-categories__item services-item">Детская клиника</li>
+      <li class="main-categories__item services-item">Дерматовенерология</li>
+    </ul>
+  </main>
+
+  <script src="js/toggle-menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.main-page {
+  min-width: $mobile-width;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.main-page__caption {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.search-disease__label {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.search-disease__text {
+  width: 100%;
+  height: 36px;
+  background-color: #d8d8d8;
+  border: none;
+  padding: 10px;
+}
+
+.search-disease__text::placeholder {
+  color: #979797;
+  font-size: 12px;
+}
+
+.search-disease__label {
+  &::after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+
+    position: absolute;
+    top: 8px;
+    right: 4px;
+  }
+}
+
+.main-page__categories {
+
+}
