@@ -16,7 +16,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-posthtml": "^3.0.4",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "posthtml-include": "^1.2.0"
   },
   "dependencies": {
